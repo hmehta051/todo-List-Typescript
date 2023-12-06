@@ -1,0 +1,126 @@
+.btn-action {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-left: 0.5rem;
+  background-color: grey;
+  color: #fff;
+  width: 50px;
+}
+
+.icon-action {
+  height: 20px;
+}
+
+.input-edit {
+  height: 20px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 0.5px solid #ddd;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.page-button {
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  margin: 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page-button.disabled {
+  background-color: gray;
+  color: black;
+  cursor: not-allowed;
+}
+
+.page-button.active {
+  background-color: black;
+  color: white;
+}
+
+.page-button.prev-next {
+  background-color: white;
+  color: black;
+  padding: 8px 12px;
+  margin: 2px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.page-button.prev-next.disabled {
+  background-color: gray;
+  color: black;
+  cursor: not-allowed;
+}
+
+.page-button.prev-next.prev {
+  margin-right: 10px;
+}
+
+.page-button.prev-next.next {
+  margin-left: 10px;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 8px auto;
+  padding: 8px;
+  width: 90%;
+  table-layout: fixed;
+  overflow-x: auto;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 0.3em;
+  text-wrap: wrap;
+}
+
+table th,
+table td {
+  padding: 0.3em;
+  text-align: center;
+  text-wrap: wrap;
+  word-wrap: break-word;
+  font-size: 0.75em;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-wrap: wrap;
+}
+
+@media screen and (max-width: 750px) {
+  thead {
+    min-width: 120px;
+  }
+  td,
+  th {
+    display: block;
+  }
+}
