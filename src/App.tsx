@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import EmployeeList from "./components/employee-list";
-import { fetchEmployees } from "../src/services/employee-service";
 import "./App.css";
+import { useState, useEffect } from "react";
+import { fetchEmployees } from "../src/services/employee-service";
+import EmployeeList from "./components/EmployeeList";
 
 type Employee = {
   id: number;
@@ -43,7 +43,7 @@ function App() {
           return employee;
         });
       }
-      return record; // Return record (null) if it's null
+      return record;
     });
   };
 

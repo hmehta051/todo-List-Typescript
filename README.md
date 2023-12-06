@@ -14,6 +14,10 @@ This project is built using ReactJS and Typescript. It involves managing an arra
 - Enables users to delete objects from the array.
 - Implemented with confirmation to prevent accidental deletions.
 
+### Responsive
+
+- Responsive across all device.
+
 ## Folder Structure
 
 - **`src/`**: Contains all project source code.

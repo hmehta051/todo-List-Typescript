@@ -30,7 +30,7 @@ const Modal: React.FC<ModalProps> = ({
       {isOpen && (
         <div className="modal">
           <div className="modal-header">
-            <h3>{title}</h3>
+            <h2>{title}</h2>
           </div>
           <div className="modal-content">{children}</div>
           <div className="modal-footer">

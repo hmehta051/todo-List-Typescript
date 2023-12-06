@@ -1,4 +1,4 @@
-import "../components/employee-list.css";
+import "./employee-list.css";
 import React, { useContext, useState } from "react";
 import { ApplicationContext } from "../context/ApplicationContextProvider";
 import Modal from "./Modal";
